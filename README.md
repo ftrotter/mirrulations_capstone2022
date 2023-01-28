@@ -6,6 +6,9 @@ A client/server application to download [`Regulations.gov`](https://www.regulati
 ## Project Premise
 Mirrulations is a project to ensure that regulatory comments are available as a text corpus.
 
+As of [Oct 2022 Regulations.gov allows for bulkdownloads of regulatory and comment data](https://www.gsa.gov/blog/2022/10/27/bulk-data-download-is-here-on-regulationsgov). Before this, comment data was only available a comment-at-a-time through the website or API. 
+
+
 
 
 ## Architecture
