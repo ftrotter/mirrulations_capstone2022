@@ -1,6 +1,12 @@
-# Capstone2021
+# Capstone Project
+
 
 A client/server application to download [`Regulations.gov`](https://www.regulations.gov/).
+
+## Project Premise
+Mirrulations is a project to ensure that regulatory comments are available as a text corpus.
+
+
 
 ## Architecture
 The image below shows the overview of the architecture for our system. Right now, the portions in blue are implemented at a basic level. Those in red are the remaining parts we need to connect. Regardless, the image shows the relationship between the working plumbing but also includes the plan over the next few weeks.
@@ -74,3 +80,24 @@ The image below shows the overview of the architecture for our system. Right now
 
 ## Faculty
 * Ben Coleman (colemanb@moravian.edu)
+
+## Client
+* [Fred Trotter](https://github.com/ftrotter)
+* [CareSet](https://careset.com)
+
+## Further Limitations of liability
+This software comes without a warranty, and uses the BSD 2 clause license to achieve this. 
+However, there are further notices that regulations.gov at one time required for the use of its API.
+It does not appear that these notices continue to be required, but given that this project has been long-running we include the notices here for good measure: 
+
+```
+Regulations.gov and the Federal government cannot verify 
+and are not responsible for the accuracy or authenticity 
+of the data or analyses derived from the data 
+after the data has been retrieved from Regulations.gov.
+```
+
+```
+This product uses the Regulations.gov Data API 
+but is neither endorsed nor certified by Regulations.gov.
+```
